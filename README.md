@@ -1,25 +1,23 @@
 # Pixel Metaverse Backend
+Pixel Metaverse is a supply chain application for authentic artworks and premium collectibles backed by smart contracts and web3.
+
+[Frontend Repository](https://github.com/BRAINIAC2677/pixel_metaverse_frontend)
+
 <img src="assets/pixel_metaverse.png" height = auto width = 700>
 <br/>
 
-## Deployment:
+## Contract Deployment:
 - Sepolia Testnet
 - ArtworkToken Contract Transaction Hash [Etherscan Ref](https://sepolia.etherscan.io/address/0xFe58726115AF6267516eBaD2164cce870D2fFDA0)
 - Marketplace Contract Transaction Hash [Etherscan Ref](https://sepolia.etherscan.io/address/0x9F7198B00adaa0DB035F75C94C7946b1c3be73bf)
-
-## Features:
-    - Auction
-    - Royalty
-    - Track Order
-    - Fee split
-    - Artwork verification
-    - Artwork Tokenization by ERC721
 
 ## Tech Stack:
     - Solidity
     - Sepolia Testnet
     - Remix
     - IPFS
+    - React JS
+    - Ethers JS
 ## Public function from smart contract:
 - ### Artist/Seller
     - function register_artist(
@@ -62,3 +60,39 @@
     - function get_artworks() public view returns (Artwork[] memory) 
     - function get_auction_items() public view returns (AuctionItem[] memory)  
   
+## Features:
+
+### Artist Registration
+
+<img src="assets/artist_register.png" height = auto width = 700>
+<br>
+
+### Upload Original Artwork 
+
+<img src="assets/upload.png" height = auto width = 700>
+<br>
+
+
+### Selling Artwork
+
+<img src="assets/sell.png" height = auto width = 700>
+<br>
+
+
+### Auction
+
+<img src="assets/auction.png" height = auto width = 700>
+<br>
+
+
+### Verifier Registration 
+
+<img src="assets/verifier_registration.png" height = auto width = 700>
+<br>
+
+
+## Contribute:
+Contributions are always welcome! Please read the [contribution guidelines](./CONTRIBUTION.md) first.
+
+## License:
+[LICENSE](./LICENSE.md)
